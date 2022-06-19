@@ -19,22 +19,21 @@
     color: var(--text-color);
     text-decoration: none;
     align-items: center;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .contact__icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 10px;
     fill: var(--text-color);
+
+    .contact__link:hover &,
+    .contact__link:focus & {
+        fill: var(--accent-color);
+    }
 }
 
-.contact__link:hover,
-.contact__link:focus {
-    color: var(--accent-color);
-
-}
-
-.contact__link:hover .contact__icon,
-.contact__link:focus .contact__icon {
-    fill: var(--accent-color);
-
-}

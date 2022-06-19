@@ -1,4 +1,4 @@
-.conteiner--flex {
+.conteiner__flex {
     display: flex;
     align-items: baseline;
 }
@@ -19,14 +19,14 @@
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.adress__link:hover,
-.adress__link:focus {
-    color: var(--accent-color);
 
-}
-
-.adress--white {
+.adress__white {
     color: var(--hero-color);
 }
