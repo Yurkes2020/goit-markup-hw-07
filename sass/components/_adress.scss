@@ -7,8 +7,10 @@
     margin-right: 70px;
 }
 
-.adress__item:not(:last-child) {
-    margin-bottom: 5px;
+.adress__item {
+    :not(:last-child) {
+        margin-bottom: 5px;
+    }
 }
 
 .adress__link {

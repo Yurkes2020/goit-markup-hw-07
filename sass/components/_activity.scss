@@ -9,8 +9,10 @@
     display: flex;
 }
 
-.team-activity__item:not(:last-child) {
-    margin-right: 30px;
+.team-activity__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .team-activity__item {
